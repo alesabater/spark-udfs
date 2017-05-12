@@ -14,6 +14,11 @@
         <version>1.0</version>
     </parent>
 
+    <properties>
+        <sonar.language>scala</sonar.language>
+        <sonar.scoverage.reportPath>target/scoverage.xml</sonar.scoverage.reportPath>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>deloitte.ie.bigdata</groupId>
